@@ -5,12 +5,15 @@
 }
 
 body {
-    color: darkgray;
+    color: darkblue;
     font-family: Helvetica, Arial, sans-serif;
 }
 
 header {
-
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: darkgray;
 }
 
 footer {
