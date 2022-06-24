@@ -97,6 +97,11 @@ footer div {
 .hero-cta p {
     text-align: left;
 }
+
+.hero img {
+    height:30%;
+    width:30%;
+}
 /*Hero Style End*/
 
 /*My Work Section*/
