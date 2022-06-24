@@ -100,11 +100,21 @@ footer div {
 /*Hero Style End*/
 
 /*My Work Section*/
+.run-buddy {
+    height: fit-content;
+    width: fit-content;
+}
 
+.gray-square {
+    height: fit-content;
+    width:fit-content
+}
 /*End My Work Section*/
 
 /*Resume Section*/
-
+.resume {
+    margin:auto;
+}
 /*End Resume Section*/
 
 
