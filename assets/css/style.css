@@ -8,7 +8,7 @@ body {
     color: darkblue;
     font-family: Helvetica, Arial, sans-serif;
 }
-
+/*Header Start*/
 header {
     display:flex;
     justify-content: space-between;
@@ -42,6 +42,20 @@ header nav ul li a {
     font-size: 1.5vw;
 }
 
+.section-title {
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    font-size: 48px;
+    color: darkblue;
+    border-bottom: 3px solid;
+}
+
+
+/*Header End*/
+
+/*Footer Start*/
 footer {
     display:flex;
     justify-content: space-between;
@@ -52,14 +66,16 @@ footer {
 }
 
 footer h2 {
-    border-right: 3px solid darkblue;
+    border-bottom: 3px solid darkblue;
     height:fit-content;
 }
 
 footer div {
     line-height: 1.5;
     text-align: right;
+    border-bottom:3px solid darkblue;
 }
+/*Footer End*/
 
 /*Hero Style Start*/
 .hero {
@@ -69,13 +85,12 @@ footer div {
     flex-wrap:wrap;
 }
 
-
 .hero-cta {
     background-color: darkgray;
 }
 
 .hero-cta h2 {
-    border-right: 3px solid darkblue;
+    border-bottom: 3px solid darkblue;
     width:fit-content
 }
 
@@ -85,12 +100,23 @@ footer div {
 /*Hero Style End*/
 
 /*My Work Section*/
+
 /*End My Work Section*/
 
 /*Resume Section*/
+
 /*End Resume Section*/
 
 
 /*Media query for smaller desktop screens and smaller*/
+@media screen and (max-width: 980px) {
+
+}
 /*Media query for tablets and smaller*/
+@media screen and (max-width: 768px) {
+
+}
 /*Media query for Iphones and smaller*/
+@media screen and (max-width: 575px) {
+    
+}
